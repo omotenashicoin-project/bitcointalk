@@ -1,0 +1,122 @@
+[center]
+[size=24pt]OMOTENASHI COIN PROJECT[/size]
+http://www.omotenashicoin.site/
+
+[hr]
+[size=16pt]OUR PROJECT[/size]
+[hr]
+
+[b]Peer-to-peer cryptographic currency[/b]
+The Omotenashi coin was cloned from PIVX coin based on Bitcoin Core technology.
+We can maintain payment information at many sites and operate in a safe and secure manner.
+
+[b]Support for the tourism industry[/b]
+We support the tourism industry with the keyword "Omotenashi".
+
+[b]Our solution[/b]
+With the aim of activating the industry with new technologies,
+we aim to provide better services by linking software and hardware.
+
+[hr]
+[size=16pt]ROADMAP[/size]
+[hr]
+
+[b]Second quarter of 2018 (April to June)[/b]
+Project launch and coin module analysis
+[b]Third quarter of 2018 (July to September)[/b]
+Operation environment construction and main function test execution
+[b]Fourth quarter of 2018 (October-December)[/b]
+Media and announce site construction
+[b]First quarter of 2019 (January to March)[/b]
+Coin tool, environmental maintenance
+[b]From the second quarter of 2019 (April-June)[/b]
+Coin release and coin announcement
+[b]From the third quarter of 2019 (July to September)[/b]
+Delivery updates and feature enhancements
+
+
+[hr]
+[size=16pt]SPECIFICATIONS[/size]
+[hr]
+
+[b]Algorithm:[/b] skein ( PoW / Masternode )
+[b]Launched:[/b] June 22th, 2019 ( pre-releasee 29th May 2019 )
+[b]Block target:[/b] 90 seconds
+[b]Coin maturity: [/b]60 block
+[b]P2P port:[/b] 16181
+[b]RPC port:[/b] 16180
+[b]Seed nodes:[/b]
+seed1.hashseeds.net
+seed2.seedhash.net
+
+
+[table][tr][td] |Phases[b]*1[/b][/td][td] |Block Height[/td][td] | Basic Reward[/td][td] | PoW[/td][td] | Masternode [b]*4[/b][/td][/tr]
+[tr][td] |  1[/td][td] |  81 [b]*2[/b]- 45000[/td][td] |  200 MTNS[/td][td] |  100 %[/td][td] |  0%[/td][/tr]
+[tr][td] |  2[/td][td] |  45001 – 90000[/td][td] |  10 MTNS[/td][td] |  100 %[/td][td] |  0%[/td][/tr]
+[tr][td] |  3[/td][td] |  90001 – 135000[/td][td] |  5 MTNS[/td][td] |  100 %[/td][td] |  0%[/td][/tr]
+[tr][td] |  4[/td][td] |  135001 – 180000[/td][td] |  25 MTNS[/td][td] |  75%[/td][td] |  25%[/td][/tr]
+[tr][td] |  5 [b]*3[/b][/td][td] |  180001 – 225000[/td][td] |  1 MTNS[/td][td] |  90% – 0,1%[/td][td] |  0,1% – 90%[/td][/tr]
+[tr][td] |  6[/td][td] |  225001 – 270000[/td][td] |  2 MTNS[/td][td] |  90% – 0,1%[/td][td] |  0,1% – 90%[/td][/tr]
+[tr][td] |  7[/td][td] |  270001 – 315000[/td][td] |  3 MTNS[/td][td] |  90% – 0,1%[/td][td] |  0,1% – 90%[/td][/tr]
+[tr][td] |  8[/td][td] |  315001 – 360000[/td][td] |  5 MTNS[/td][td] |  90% – 0,1%[/td][td] |  0,1% – 90%[/td][/tr]
+[tr][td] |  9[/td][td] |  360001 – 405000[/td][td] |  7 MTNS[/td][td] |  90% – 0,1%[/td][td] |  0,1% – 90%[/td][/tr][/table]
+
+
+
+[b]* 1 [/b]Dynamically fluctuate the rewarding number ( switch every 45 thousand blocks ) in nine phases .
+After Phase 9, return to Phase 1 and repeat phases 1 to 9
+[b]* 2 [/b]First block – 80 block: Breaking mining 5%
+(5 master node deposit: 50 000 MTNS, for exchanges: 450 000 MTNS, for developers: 16 000 000 MTNS and 1MTNS par block)
+[b]* 3[/b] SeeSaw mechanism of PIVX coin functions in phases 5 to 9
+[b]* 4[/b] Number of master node deposit coins: 10 000 MTNS (authentication required time: about 4 hours)
+
+
+[b]Configuration file:[/b] omotenashicoin.conf sample
+[table][tr][td][quote]
+rpcuser=user
+rpcpassword=pass
+rpcport=16180
+port=16181
+addnode=66.42.57.23
+addnode=198.13.59.12
+addnode=207.148.98.162
+addnode=45.76.112.243
+addnode=209.250.235.110
+addnode=104.238.154.168
+addnode=207.246.117.163
+server=1
+listen=1
+daemon=1
+[/quote][/table]
+
+
+[hr]
+[size=16pt]WALLET[/size]
+[hr]
+
+[url=https://github.com/omotenashicoin-project/OmotenashiCoin-binaries/tree/master/v1.5.1]Windows x64 and Linux x64 ( Versioin 1.5.1 )[/url]
+MAC, iOS and Android comming soon ...
+
+[hr]
+[size=16pt]EXCHANGE and TRADE SITE[/size]
+[hr]
+
+Comming soon ...
+
+[hr]
+[size=16pt]POOL SITE[/size]
+[hr]
+
+[b]pool site : [/b][url=http://plpool.org/]PLPOOL[/url]
+
+
+[hr]
+[size=16pt]LINKS[/size]
+[hr]
+
+[b]Official Project site : [/b][url=http://www.omotenashicoin.site/]http://www.omotenashicoin.site/[/url]
+[b]BlockExplorer : [/b][url=http://mtns.hashexplorer.net/]http://mtns.hashexplorer.net/[/url]
+[b]Discord site : [/b][url=https://discord.gg/ew9Tssb]https://discord.gg[/url]
+[b]twitter : [/b][url=https://twitter.com/omotenashicoin]https://twitter.com/omotenashicoin[/url]
+
+[/center]
